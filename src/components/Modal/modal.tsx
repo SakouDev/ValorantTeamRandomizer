@@ -1,4 +1,4 @@
-// @ts-nocheck
+// @ts-ignore
 import React from "react";
 import ReactDOM from "react-dom";
 import styles from './modal.module.css'
