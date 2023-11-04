@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import styles from './modal.module.css'
 
 const Modal = ({ onClose, children, title }:any) => {
-    const handleCloseClick = (e) => {
+    const handleCloseClick = (e:any) => {
         e.preventDefault();
         onClose();
     };
