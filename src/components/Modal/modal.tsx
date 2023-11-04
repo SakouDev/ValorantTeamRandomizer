@@ -27,7 +27,7 @@ const Modal = ({ onClose, children, title }:any) => {
 
     return ReactDOM.createPortal(
         modalContent!,
-        document.getElementById("modal-root")!
+        document.getElementById("modal-root") as any
     );
 };
 
